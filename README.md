@@ -18,7 +18,7 @@ Percentiles displayed in a modified Kagerou overlay (the Pct column):
 **Note:** I've forked and added percentile functionality to the popular [Kagerou](https://github.com/hibiyasleep/kagerou) overlay, simply change the overlay URL to: **https://liquidize.github.io/kagerou/overlay/** and you should be able to add "Percentile" as a column in your tabs in the config. You will need to completely reconfigure your overlay though, unfortunately.
 
 
-Clicking on update with "UseLocal" unchecked will download the "remotedata.json" file found on this repository. This is the easiest way to obtain the latest data for FFLogs inforamtion. This data is required to calculate the percentiles in real time. If you want to use "Local Data" see the section below on using local data. (NOT recommended FOR SLOW CONNECTIONS OR METERED CONNECTIONS)
+Clicking on update with "Use Local Data" unchecked will download the "remotedata.json" file found on this repository. This is the easiest way to obtain the latest data for FFLogs inforamtion. This data is required to calculate the percentiles in real time. If you want to use "Local Data" see the section below on using local data. (NOT recommended FOR SLOW CONNECTIONS OR METERED CONNECTIONS)
 
 # Local Data
 

@@ -3,6 +3,9 @@ Percentile Plugin for ACT to allow overlays to display FFLogs percentile data in
 
 The plugin works by using data obtained from FFLogs and calculating the current percentile in real time using your current DPS. The data used should be fairly accurate +/- 1% of the Historical Percentile if you use the latest data. You can view the percentiles in real time via the "Percentile" column that is added to ACT or via a compatible overlay.
 
+Percentiles displayed in a modified Kagerou overlay (the Pct column):
+![Example](https://i.imgur.com/lrgGFzG.png)
+
 # How-To
 
 1. Obtain the latest version (zip file) of the plugin from the [Releases](https://github.com/Liquidize/FFXIV_PercentilePlugin/releases)

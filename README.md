@@ -1,12 +1,12 @@
 # FFXIV_PercentilePlugin (beta)
 Percentile Plugin for ACT to allow overlays to display FFLogs percentile data in real time.
 
-The plugin works by using data obtained from FFLogs and calculating the current percentile in real time using your current DPS. The data used should be fairly accurate +/- 1% of the Historical Percentile if you use the latest data. You can view the percentiles in real time via the "Percentile" column that is added to ACT or via a compatible overlay.
+The plugin works by using data obtained from FFLogs and calculating the current percentile in real time using your current DPS. The data used should be fairly accurate +/- 1% (give or take) of the Historical Percentile if you use the latest data. You can view the percentiles in real time via the "Percentile" column that is added to ACT or via a compatible overlay.
 
 Percentiles displayed in a modified Kagerou overlay (the Pct column):
 ![Example](https://i.imgur.com/lrgGFzG.png)
 
-**Note:** The plugin is still in development and while fully functional for displaying percentiles for known fights, future fights and some current fights may need to be adjusted. Local Data obtaining could also be better coded so expect that to change (won't affect most users).
+**Note:** The plugin is still in development and while fully functional for displaying percentiles for known fights, future fights and some current fights may need to be adjusted.
 
 # How-To
 
@@ -14,28 +14,12 @@ Percentiles displayed in a modified Kagerou overlay (the Pct column):
 2. Extract the zip file to where your "Advanced Combat Tracker.exe" is, usually something like "C:\Program Files (x86)\Advanced Combat Tracker"
 3. Run ACT as administrator (incase of permissions errors for writing config files)
 4. Go to the "Plugins" tab and the "PercentilePlugin.dll" as a plugin.
-5. Go to the "PercentilePlugin" plugin tab, and with "Use Local Data" **unchecked** click update.
+5. Go to the "PercentilePlugin" plugin tab, and click update.
 6. Use a compatible overlay if you want to see the information in the overlay.
 
 **Note:** I've forked and added percentile functionality to the popular [Kagerou](https://github.com/hibiyasleep/kagerou) overlay, simply change the overlay URL to: **https://liquidize.github.io/kagerou/overlay/** and you should be able to add "Percentile" as a column in your tabs in the config. You will need to completely reconfigure your overlay though, unfortunately.
 
-
-Clicking on update with "Use Local Data" unchecked will download the "remotedata.json" file found on this repository. This is the easiest way to obtain the latest data for FFLogs inforamtion. This data is required to calculate the percentiles in real time. If you want to use "Local Data" see the section below on using local data. (NOT recommended FOR SLOW CONNECTIONS OR METERED CONNECTIONS)
-
-# Local Data
-
-Local Data is data that is not obtained via the remotedata.json file. It is obtained on your own by setting the plugin up to parse the FFLogs data via the FFLogs API. To do this you need an FFLogs API Key which can be obtained if you have an FFLogs account. Local Data is personalized towards your own needs to speed up the parsing process. This means if you only care about say Warrior percentiles on a specific encounter (That isn't "Frozen") you can configure the plugin to only parse that data. Due to the limitations of the FFLogs API parsing all the data for all the jobs and all the encounters could take upwards towards an hour on a moderately good connection. It also not recommended to use local data if you are on a metered connection. **Due to this it is recommended to not use local data, as the remote data will be updated on a daily basis anyway**
-
-Steps below indicate how to get local data (this may change as the plugin is in beta).
-
-1. Obtain an FFLogs API Key from FFLogs
-2. In the plugin tab set the API Key to your API Key and then click Save Settings
-3. Click "Configure Local"
-4. In the new window click "Update Information"
-5. Select the jobs and encounters you want to get data for and click "Save Config"
-6. On the plugin tab check "Use Local Data"
-7. Click Update
-8. Wait...awhile...maybe
+Clicking the "Update" button will download the "parsedata.bin" file that is stored in this repository. This file contains all the data needed to calculate your parses, and is updated daily.
 
 # Compatible Overlays
 
@@ -49,6 +33,7 @@ If you want your overlay listed here, please message me in game or on discord.
 
 # Credits
 
-* LIquidize / Kaliya Y'mhitra (Goblin - NA) - Developer/Plugin Creator
+* Liquidize / Kaliya Y'mhitra (Goblin - NA) - Developer/Plugin Creator
 * Kaliph Soren (Goblin - NA) - Co-developer
 * [Hibiyasleep](https://github.com/hibiyasleep) - Creator of the Kagerou overlay which I forked and added functionality to.
+* The update functionality of the plugin was taken from Cactbot an open source Raid helper found [here](https://github.com/quisquous/cactbot).

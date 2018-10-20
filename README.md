@@ -24,7 +24,7 @@ Clicking the "Update" button will download the "parsedata.bin" file that is stor
 # Compatible Overlays
 
 1. [Kagerou pct](https://github.com/Liquidize/kagerou) - Forked by me, this is the latest version of Kagerou with the added ability to add "Percentile" as a column to your tabs. Just like Kagerou you can easily set this as your overlay by using the following url: https://liquidize.github.io/kagerou/overlay/
-
+2. [Fancy Detail Overlay](https://i.imgur.com/HGSZoQ6.png) - By 라그린네, I am unsure of the original name of this overlay a user of the plugin asked me to add support for it. You can find the overlay in the Overlays folder on the repository.
 
 If you want your overlay listed here, please message me in game or on discord.
 

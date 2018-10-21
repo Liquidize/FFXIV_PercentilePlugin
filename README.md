@@ -25,7 +25,7 @@ Clicking the "Update" button will download the "parsedata.bin" file that is stor
 
 1. [Kagerou pct](https://github.com/Liquidize/kagerou) - Forked by me, this is the latest version of Kagerou with the added ability to add "Percentile" as a column to your tabs. Just like Kagerou you can easily set this as your overlay by using the following url: https://liquidize.github.io/kagerou/overlay/
 2. [Fancy Detail Overlay](https://i.imgur.com/HGSZoQ6.png) - By 라그린네, I am unsure of the original name of this overlay a user of the plugin asked me to add support for it. You can find the overlay in the Overlays folder on the repository.
-3. [MopiMopi Pct]() - A fork of [MopiMopi](https://github.com/HAERUHAERU/mopimopi) by [HaeruHaeru](https://github.com/HAERUHAERU/) with percentile support added by myself. This overlay requires ActWebSocket, follow the guide [HERE](https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit). Click [HERE](https://i.imgur.com/bPvNkIQ.png) for a preview.
+3. [MopiMopi Pct]() - A fork of [MopiMopi](https://github.com/HAERUHAERU/mopimopi) by [HaeruHaeru](https://github.com/HAERUHAERU/) with percentile support added by myself. This overlay requires ActWebSocket, follow the guide [HERE](https://docs.google.com/presentation/d/1U7-Vgv6UA2_EFdvw3m8BI-5-9T91WeKTflDuR7rEx-U/edit). Click [HERE](https://i.imgur.com/bPvNkIQ.png) for a preview. Use [https://liquidize.github.io/mopimopi/](https://liquidize.github.io/mopimopi/) as the URL instead of the one in the guide.
 
 If you want your overlay listed here, please message me in game or on discord.
 
